@@ -19,10 +19,10 @@ function checkAge(name, age) {
     }
 };
 
-checkAge(Charles, 21);
-checkAge(Abby, 27);
-checkAge(James, 18);
-checkAge(John, 17);
+checkAge("Charles", 21);
+checkAge("Abby", 27);
+checkAge("James", 18);
+checkAge("John", 17);
 
 let vegArray = ["Carrots", "Potatoes", "Onions", "Taco Lettuce"];
 
@@ -46,7 +46,7 @@ let array = [
 ]
 
 for(let i = 0; i < array.length; i++) {
-    checkAge(array[i]);
+    checkAge(array[i].name, array[i].age);
 }
 
 function getLength(anyWord) {
